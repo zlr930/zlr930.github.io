@@ -12,6 +12,8 @@ export const profile = {
   phone: '132 0988 0705（微信同号）',
   phoneRaw: '+8613209880705',
   email: 'zlr_cn@163.com',
+  website: 'https://rinazhao.top/',
+  websiteLabel: 'rinazhao.top',
   location: '杭州 / 合肥',
 }
 

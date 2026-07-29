@@ -4,6 +4,7 @@ import {
   BadgeCheck,
   BriefcaseBusiness,
   FolderKanban,
+  Globe2,
   GraduationCap,
   Home,
   Mail,
@@ -89,6 +90,7 @@ function IdentityHeader() {
           <span className="party-info"><BadgeCheck />{profile.party}</span>
           <a href={`tel:${profile.phoneRaw}`}><Phone />{profile.phone}</a>
           <a href={`mailto:${profile.email}`}><Mail />{profile.email}</a>
+          <a href={profile.website} target="_blank" rel="noreferrer"><Globe2 />{profile.websiteLabel}</a>
           <span><MapPin />{profile.location}</span>
         </div>
         <div className="header-skills" aria-label="个人技能">
