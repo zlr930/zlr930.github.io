@@ -4,3 +4,16 @@ dist
 *.local
 赵丽蓉-27届-合肥工业大学-一周内到岗.pdf
 WechatIMG1.jpg
+
+# Local source material and generated working files
+output/
+tmp/
+个人logo.png
+个人照片.jpg
+个人照片新.jpg
+个人项目/
+校园经历/
+简历内容全部.md
+public/adopt-a-cow-logo.png
+public/the-ckb-logo.png
+public/zjgsu-sme-logo.png
