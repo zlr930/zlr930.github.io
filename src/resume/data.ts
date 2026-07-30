@@ -13,11 +13,11 @@ export const profile = {
   phoneRaw: '+8613209880705',
   email: 'zlr_cn@163.com',
   website: 'https://rinazhao.top/',
-  websiteLabel: 'rinazhao.top',
+  websiteLabel: 'rinazhao.top（个人主页）',
   location: '杭州 / 合肥',
 }
 
-export const skillTags = ['Python', 'SQL', 'Excel', 'Power BI', 'AI 自动化', 'PPT / PS', 'CET-6']
+export const skillTags = ['Vibecoding', 'Python', 'SQL', 'Excel', 'Power BI', 'AI 自动化', 'PPT / PS', 'CET-6']
 
 export const education = [
   {
