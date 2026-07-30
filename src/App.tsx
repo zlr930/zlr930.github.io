@@ -353,7 +353,7 @@ function App() {
 
         <section className="projects-section" id="work">
           <motion.div className="section-heading projects-heading" {...reveal}>
-            <p>03 / SELECTED WORK</p>
+            <p>03 / PROJECTS</p>
             <h2>钻研新技术，在竞赛中<span>精进。</span></h2>
           </motion.div>
           <motion.div className="project-carousel" {...reveal}>
