@@ -59,7 +59,6 @@ button { color: inherit; }
 .contact-list { display: flex; flex-wrap: wrap; gap: 1mm 4mm; margin: 0; color: #555e5f; font-size: 6.2pt; }
 .contact-list a, .contact-list span { display: inline-flex; align-items: center; gap: 1.1mm; white-space: nowrap; }
 .contact-list svg { width: 2.5mm; height: 2.5mm; color: var(--brass); stroke-width: 1.8; }
-.contact-list .party-info { color: var(--navy); font-weight: 800; }
 .header-skills { display: flex; flex-wrap: wrap; gap: 1.2mm; margin: 0; }
 .header-skills span { min-height: 4.6mm; display: inline-flex; align-items: center; padding: 0 2.1mm; border: 1px solid #c9c3b8; color: #465052; background: #f6f4ef; font-size: 5.5pt; font-weight: 750; line-height: 1; }
 .header-skills span::before { content: ''; width: 1.1mm; height: 1.1mm; margin-right: 1.2mm; background: var(--brass); }

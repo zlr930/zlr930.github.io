@@ -87,7 +87,7 @@ function IdentityHeader() {
           <div><strong>{profile.englishName}</strong><span>{profile.status}</span></div>
         </div>
         <div className="contact-list">
-          <span className="party-info"><BadgeCheck />{profile.party}</span>
+          <span><BadgeCheck />{profile.party}</span>
           <a href={`tel:${profile.phoneRaw}`}><Phone />{profile.phone}</a>
           <a href={`mailto:${profile.email}`}><Mail />{profile.email}</a>
           <a href={profile.website} target="_blank" rel="noreferrer"><Globe2 />{profile.websiteLabel}</a>
