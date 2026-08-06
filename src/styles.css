@@ -143,6 +143,8 @@ section[id] { scroll-margin-top: 84px; }
 .project-controls { max-width: 760px; margin: 4px auto 0; display: grid; grid-template-columns: 90px 1fr 100px; align-items: center; gap: 20px; }
 .project-count { display: flex; align-items: baseline; gap: 5px; color: #77707a; font: 700 10px 'SFMono-Regular', Consolas, monospace; }
 .project-count strong { color: var(--ink); font-size: 18px; }
+.project-navigation { display: grid; justify-items: center; gap: 7px; }
+.project-navigation p { margin: 0; color: #77707a; font: 650 10px 'SFMono-Regular', Consolas, monospace; }
 .project-dots { display: flex; align-items: center; justify-content: center; gap: 8px; }
 .project-dots button { width: 7px; height: 7px; padding: 0; border: 0; border-radius: 50%; background: #bbb1c1; cursor: pointer; transition: width .2s, border-radius .2s, background-color .2s; }
 .project-dots button.active { width: 28px; border-radius: 4px; background: #766983; }

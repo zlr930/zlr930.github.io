@@ -404,10 +404,13 @@ function App() {
             </div>
             <div className="project-controls">
               <div className="project-count"><strong>{String(selectedProject + 1).padStart(2, '0')}</strong><span>/ {String(projects.length).padStart(2, '0')}</span></div>
-              <div className="project-dots" aria-label="选择项目">
-                {projects.map((project, index) => (
-                  <button className={selectedProject === index ? 'active' : undefined} key={project.id} onClick={() => projectCarousel?.scrollTo(index)} aria-label={`查看项目 ${index + 1}`} />
-                ))}
+              <div className="project-navigation">
+                <p>左右滑动查看!</p>
+                <div className="project-dots" aria-label="选择项目">
+                  {projects.map((project, index) => (
+                    <button className={selectedProject === index ? 'active' : undefined} key={project.id} onClick={() => projectCarousel?.scrollTo(index)} aria-label={`查看项目 ${index + 1}`} />
+                  ))}
+                </div>
               </div>
               <div className="project-arrows">
                 <button onClick={() => projectCarousel?.scrollPrev()} aria-label="上一个项目" title="上一个项目"><ChevronLeft /></button>
@@ -476,7 +479,7 @@ function App() {
             <motion.div className="skill-zone skill-zone-work" {...reveal}>
               <header className="skill-zone-header">
                 <div>
-                  <span>09 / WORK MODE</span>
+                  <span>01 / WORK MODE</span>
                   <h3>技能</h3>
                   <p>数据、工具与业务表达</p>
                 </div>
@@ -501,7 +504,7 @@ function App() {
             <motion.div className="skill-zone skill-zone-life" {...reveal}>
               <header className="skill-zone-header">
                 <div>
-                  <span>05 / LIFE MODE</span>
+                  <span>02 / LIFE MODE</span>
                   <h3>爱好</h3>
                   <p>让日常保持松弛与好奇</p>
                 </div>
