@@ -29,6 +29,9 @@ import {
 const A4_WIDTH = 794
 const A4_HEIGHT = 1123
 const EMPHASIS_PHRASES = [
+  '绩点 4.06',
+  '专业排名 2/97',
+  '5 个招投标项目',
   '成绩排名 1/87',
   '保研至合肥工业大学',
   '店铺巡价、投诉闭环处理及分销商专项整改机制',

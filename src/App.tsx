@@ -36,6 +36,7 @@ const educationCards = [
     tone: 'current',
     emblem: './hfut-emblem.jpg',
     points: [
+      { label: '学业成绩', detail: '绩点 4.06，专业排名 2/97。' },
       { label: '相关课程', detail: '数理统计（100）、最优化方法（97）等。' },
       { label: '荣誉奖项', detail: '一等学业奖学金 2 次、校三好学生。' },
     ],
@@ -56,6 +57,16 @@ const educationCards = [
 const internshipCards = [
   {
     ...resumeInternships[0],
+    logo: './jd-logo.jpg',
+    logoClass: 'jd',
+    points: [
+      { label: '投标项目协同', detail: '协同销售组、方案组、招采组推进招标文件拆解、任务分工、标书撰写与组内评审，目前已协同推进 5 个招投标项目。' },
+      { label: '标讯商机挖掘', detail: '独立搭建投标商机搜寻 Agent 助手和网站平台，抓取公开网站新增商机并筛选项目匹配度、业务相关性及初步可行性。' },
+      { label: '客户开发与需求洞察', detail: '随销售人员开展客户陌访及商机线索跟进，了解客户物流模式、业务痛点与合作需求，协助匹配物流解决方案。' },
+    ],
+  },
+  {
+    ...resumeInternships[1],
     logo: './adopt-a-cow-logo-transparent.png',
     logoClass: 'cow',
     points: [
@@ -65,7 +76,7 @@ const internshipCards = [
     ],
   },
   {
-    ...resumeInternships[1],
+    ...resumeInternships[2],
     logo: './dahua-logo.svg',
     logoClass: 'dahua',
     points: [
@@ -74,22 +85,13 @@ const internshipCards = [
     ],
   },
   {
-    ...resumeInternships[2],
+    ...resumeInternships[3],
     logo: './the-ckb-logo-transparent.png',
     logoClass: 'ckb',
     points: [
       { label: '履约监控', detail: '跟踪 D2C 海外订单及核心时效指标，保障仓库 7 天发货率稳定在 70% 左右。' },
       { label: '供应链运营', detail: '优化货源配置并处理退换货、入库异常，推动店铺 3 天发货率稳定在 85% 以上。' },
       { label: '跨部门协同', detail: '联动采购、仓库、商家与业务团队闭环异常，保障订单履约交付指标不低于 90%。' },
-    ],
-  },
-  {
-    ...resumeInternships[3],
-    logo: './zjgsu-emblem.png',
-    logoClass: 'zjgsu',
-    points: [
-      { label: '事务执行', detail: '负责档案、报告、材料与报销事务，曾短期完成 200 余份毕业档案整理。' },
-      { label: '协调支持', detail: '对接师生及学院部门，细致核对材料并处理信息偏差，保障事务有序推进。' },
     ],
   },
 ]
