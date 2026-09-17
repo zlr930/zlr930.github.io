@@ -88,7 +88,7 @@ button { color: inherit; }
 .internship-head .entry-role { margin: 0; justify-self: center; white-space: nowrap; }
 .internship-head time { justify-self: end; }
 .detail-list { display: grid; gap: .3mm; margin: 0; padding: 0; list-style: none; }
-.detail-list li { position: relative; padding-left: 2.5mm; color: #4b5354; font-size: 6.9pt; line-height: 1.39; text-align: justify; }
+.detail-list li { position: relative; padding-left: 2.5mm; color: #4b5354; font-size: 7.2pt; line-height: 1.31; text-align: justify; }
 .detail-list li::before { content: ''; position: absolute; left: .25mm; top: .52em; width: 1.05mm; height: 1.05mm; border-radius: 50%; background: #202526; }
 .detail-list strong { color: #2e3637; font-weight: 800; }
 .detail-list .detail-emphasis { color: inherit; font-weight: 900; -webkit-text-stroke: .12px currentColor; }
@@ -97,13 +97,13 @@ button { color: inherit; }
 .project-list .resume-entry { padding-block: 1.15mm; }
 .project-list .entry-head h3 { font-size: 7.5pt; }
 .project-inline-role { margin-left: 1.2mm; color: var(--navy); font-size: 5.9pt; font-weight: 800; white-space: nowrap; }
-.project-list .detail-list li { font-size: 6.5pt; line-height: 1.37; }
+.project-list .detail-list li { font-size: 6.9pt; line-height: 1.3; }
 .project-link { position: absolute; right: 0; bottom: .8mm; display: inline-flex; align-items: center; gap: .5mm; color: var(--navy); font: 700 4.8pt 'SFMono-Regular', Consolas, monospace; border-bottom: 1px solid currentColor; }
 .project-link svg { width: 2.1mm; height: 2.1mm; }
 .project-entry:has(.project-link) .detail-list { padding-right: 35mm; }
 .self-evaluation { margin-left: 2.65mm; padding: 1mm 0 0 4.2mm; }
 .self-evaluation .detail-list { gap: .5mm; }
-.self-evaluation .detail-list li { font-size: 6.7pt; line-height: 1.4; }
+.self-evaluation .detail-list li { font-size: 7pt; line-height: 1.32; }
 
 .print-resume { display: none; }
 
