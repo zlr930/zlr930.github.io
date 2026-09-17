@@ -244,7 +244,7 @@ function App() {
           <a className={activeSection === 'about' ? 'active' : undefined} href="#about" aria-current={activeSection === 'about' ? 'page' : undefined}>技能与爱好</a>
           <a className={activeSection === 'contact' ? 'active' : undefined} href="#contact" aria-current={activeSection === 'contact' ? 'page' : undefined}>联系我</a>
         </nav>
-        <a className="header-cta" href="./resume/">简历 <ArrowUpRight size={15} /></a>
+        <a className="header-cta" href="./resume/print/">A4 简历 <Download size={15} /></a>
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? '关闭菜单' : '打开菜单'}>
           {menuOpen ? <X /> : <Menu />}
         </button>
@@ -260,6 +260,7 @@ function App() {
           <a className={activeSection === 'about' ? 'active' : undefined} href="#about" onClick={closeMenu}>技能与爱好 <span>06</span></a>
           <a className={activeSection === 'contact' ? 'active' : undefined} href="#contact" onClick={closeMenu}>联系我 <span>07</span></a>
           <a href="./resume/">查看简历 <span>↗</span></a>
+          <a href="./resume/print/">打印版简历 <span>↓</span></a>
         </motion.nav>
       )}
 
