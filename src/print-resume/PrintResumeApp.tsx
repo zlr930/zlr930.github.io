@@ -39,7 +39,7 @@ const projects: PrintEntry[] = [
   ...projectsData.slice(0, 3).map((item) => ({
     title: item.title,
     role: item.role,
-    period: item.period,
+    period: item.title === 'AI Agent 驱动的自媒体运营与 SOP 自动化实践' ? '2026.02' : item.period,
     points: item.points,
   })),
   {
